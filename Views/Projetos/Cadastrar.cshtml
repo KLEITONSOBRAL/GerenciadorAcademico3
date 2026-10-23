@@ -1,0 +1,4 @@
+@model ProjetoFormViewModel
+@{ ViewData["Title"] = "Cadastrar projeto"; }
+<h1>Cadastrar projeto</h1><p>Preencha os campos e escolha o professor responsável.</p>
+<form asp-action="Cadastrar" method="post" class="formulario"><partial name="_Formulario" model="Model" /></form>

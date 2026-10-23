@@ -1,0 +1,5 @@
+@model Projeto
+@{ ViewData["Title"] = "Excluir projeto"; }
+<h1>Excluir projeto</h1><p>Deseja realmente excluir o projeto <strong>@Model.Titulo</strong>?</p>
+<p>Professor: @(Model.Professor?.Nome ?? "Professor não encontrado")</p>
+<form method="post" asp-action="Excluir" asp-route-id="@Model.Id"><button class="vermelho" type="submit">Confirmar exclusão</button> <a asp-action="Index">Cancelar</a></form>

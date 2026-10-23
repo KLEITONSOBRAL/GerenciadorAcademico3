@@ -1,0 +1,18 @@
+@model ProjetoListaViewModel
+@{ ViewData["Title"] = "Projetos"; }
+<div class="topo"><div><h1>Projetos</h1><p>Consulte e organize os projetos cadastrados.</p></div><a class="botao" asp-action="Cadastrar">Cadastrar projeto</a></div>
+@if (TempData["Mensagem"] is string msg) { <div class="sucesso">@msg</div> }
+<form method="get" asp-action="Index" class="filtros">
+    <input name="pesquisa" value="@Model.Pesquisa" placeholder="Pesquisar pelo título" aria-label="Pesquisar título" />
+    <select name="ordem" aria-label="Ordenação"><option value="titulo" selected="@(Model.Ordem != "cargahoraria")">Título</option><option value="cargahoraria" selected="@(Model.Ordem == "cargahoraria")">Carga horária</option></select>
+    <button type="submit">Aplicar</button><a asp-action="Index">Limpar</a>
+</form>
+<div class="tabela"><table><thead><tr><th>Projeto</th><th>Carga horária</th><th>Professor</th><th>Ações</th></tr></thead><tbody>
+@foreach (var projeto in Model.Projetos)
+{
+    <tr><td><strong>@projeto.Titulo</strong><small>@projeto.Descricao</small></td><td>@projeto.CargaHoraria h</td><td>@(projeto.Professor?.Nome ?? "Professor não encontrado")</td>
+    <td><a asp-action="Detalhes" asp-route-id="@projeto.Id">Detalhes</a> <a asp-action="Editar" asp-route-id="@projeto.Id">Editar</a> <a class="perigo" asp-action="Excluir" asp-route-id="@projeto.Id">Excluir</a></td></tr>
+}
+</tbody></table></div>
+@if (Model.Projetos.Count == 0) { <p>Nenhum projeto encontrado.</p> }
+<p class="contagem">@Model.Projetos.Count projeto(s) na listagem.</p>

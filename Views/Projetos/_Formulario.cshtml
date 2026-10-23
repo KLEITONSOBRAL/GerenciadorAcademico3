@@ -1,0 +1,7 @@
+@model ProjetoFormViewModel
+<div asp-validation-summary="ModelOnly" class="erro"></div>
+<div class="campo"><label asp-for="Titulo"></label><input asp-for="Titulo" /><span asp-validation-for="Titulo" class="erro"></span></div>
+<div class="campo"><label asp-for="Descricao"></label><textarea asp-for="Descricao" rows="4"></textarea><span asp-validation-for="Descricao" class="erro"></span></div>
+<div class="campo"><label asp-for="CargaHoraria"></label><input asp-for="CargaHoraria" type="number" min="1" /><span asp-validation-for="CargaHoraria" class="erro"></span></div>
+<div class="campo"><label asp-for="ProfessorId"></label><select asp-for="ProfessorId" asp-items="Model.Professores"><option value="0">Selecione um professor</option></select><span asp-validation-for="ProfessorId" class="erro"></span></div>
+<div class="acoes"><button type="submit">Salvar projeto</button><a asp-action="Index">Cancelar</a></div>

@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "titulo": "Leitura e escrita — turma 1",
+    "descricao": "Atividades práticas de leitura e escrita com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 1
+  },
+  {
+    "id": 2,
+    "titulo": "Tecnologia educacional — turma 1",
+    "descricao": "Atividades práticas de tecnologia educacional com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 2
+  },
+  {
+    "id": 3,
+    "titulo": "Educação ambiental — turma 1",
+    "descricao": "Atividades práticas de educação ambiental com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 3
+  },
+  {
+    "id": 4,
+    "titulo": "Matemática aplicada — turma 1",
+    "descricao": "Atividades práticas de matemática aplicada com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 4
+  },
+  {
+    "id": 5,
+    "titulo": "História local — turma 1",
+    "descricao": "Atividades práticas de história local com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 5
+  },
+  {
+    "id": 6,
+    "titulo": "Projetos culturais — turma 1",
+    "descricao": "Atividades práticas de projetos culturais com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 6
+  },
+  {
+    "id": 7,
+    "titulo": "Laboratório de ciências — turma 1",
+    "descricao": "Atividades práticas de laboratório de ciências com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 7
+  },
+  {
+    "id": 8,
+    "titulo": "Inclusão digital — turma 1",
+    "descricao": "Atividades práticas de inclusão digital com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 8
+  },
+  {
+    "id": 9,
+    "titulo": "Arte e sociedade — turma 1",
+    "descricao": "Atividades práticas de arte e sociedade com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 9
+  },
+  {
+    "id": 10,
+    "titulo": "Pesquisa comunitária — turma 1",
+    "descricao": "Atividades práticas de pesquisa comunitária com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 10
+  },
+  {
+    "id": 11,
+    "titulo": "Leitura e escrita — turma 2",
+    "descricao": "Atividades práticas de leitura e escrita com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 11
+  },
+  {
+    "id": 12,
+    "titulo": "Tecnologia educacional — turma 2",
+    "descricao": "Atividades práticas de tecnologia educacional com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 12
+  },
+  {
+    "id": 13,
+    "titulo": "Educação ambiental — turma 2",
+    "descricao": "Atividades práticas de educação ambiental com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 13
+  },
+  {
+    "id": 14,
+    "titulo": "Matemática aplicada — turma 2",
+    "descricao": "Atividades práticas de matemática aplicada com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 14
+  },
+  {
+    "id": 15,
+    "titulo": "História local — turma 2",
+    "descricao": "Atividades práticas de história local com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 15
+  },
+  {
+    "id": 16,
+    "titulo": "Projetos culturais — turma 2",
+    "descricao": "Atividades práticas de projetos culturais com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 16
+  },
+  {
+    "id": 17,
+    "titulo": "Laboratório de ciências — turma 2",
+    "descricao": "Atividades práticas de laboratório de ciências com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 17
+  },
+  {
+    "id": 18,
+    "titulo": "Inclusão digital — turma 2",
+    "descricao": "Atividades práticas de inclusão digital com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 18
+  },
+  {
+    "id": 19,
+    "titulo": "Arte e sociedade — turma 2",
+    "descricao": "Atividades práticas de arte e sociedade com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 19
+  },
+  {
+    "id": 20,
+    "titulo": "Pesquisa comunitária — turma 2",
+    "descricao": "Atividades práticas de pesquisa comunitária com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 20
+  },
+  {
+    "id": 21,
+    "titulo": "Leitura e escrita — turma 3",
+    "descricao": "Atividades práticas de leitura e escrita com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 21
+  },
+  {
+    "id": 22,
+    "titulo": "Tecnologia educacional — turma 3",
+    "descricao": "Atividades práticas de tecnologia educacional com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 22
+  },
+  {
+    "id": 23,
+    "titulo": "Educação ambiental — turma 3",
+    "descricao": "Atividades práticas de educação ambiental com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 23
+  },
+  {
+    "id": 24,
+    "titulo": "Matemática aplicada — turma 3",
+    "descricao": "Atividades práticas de matemática aplicada com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 24
+  },
+  {
+    "id": 25,
+    "titulo": "História local — turma 3",
+    "descricao": "Atividades práticas de história local com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 25
+  },
+  {
+    "id": 26,
+    "titulo": "Projetos culturais — turma 3",
+    "descricao": "Atividades práticas de projetos culturais com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 26
+  },
+  {
+    "id": 27,
+    "titulo": "Laboratório de ciências — turma 3",
+    "descricao": "Atividades práticas de laboratório de ciências com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 27
+  },
+  {
+    "id": 28,
+    "titulo": "Inclusão digital — turma 3",
+    "descricao": "Atividades práticas de inclusão digital com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 28
+  },
+  {
+    "id": 29,
+    "titulo": "Arte e sociedade — turma 3",
+    "descricao": "Atividades práticas de arte e sociedade com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 29
+  },
+  {
+    "id": 30,
+    "titulo": "Pesquisa comunitária — turma 3",
+    "descricao": "Atividades práticas de pesquisa comunitária com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 30
+  },
+  {
+    "id": 31,
+    "titulo": "Leitura e escrita — turma 4",
+    "descricao": "Atividades práticas de leitura e escrita com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 1
+  },
+  {
+    "id": 32,
+    "titulo": "Tecnologia educacional — turma 4",
+    "descricao": "Atividades práticas de tecnologia educacional com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 2
+  },
+  {
+    "id": 33,
+    "titulo": "Educação ambiental — turma 4",
+    "descricao": "Atividades práticas de educação ambiental com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 3
+  },
+  {
+    "id": 34,
+    "titulo": "Matemática aplicada — turma 4",
+    "descricao": "Atividades práticas de matemática aplicada com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 4
+  },
+  {
+    "id": 35,
+    "titulo": "História local — turma 4",
+    "descricao": "Atividades práticas de história local com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 5
+  },
+  {
+    "id": 36,
+    "titulo": "Projetos culturais — turma 4",
+    "descricao": "Atividades práticas de projetos culturais com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 6
+  },
+  {
+    "id": 37,
+    "titulo": "Laboratório de ciências — turma 4",
+    "descricao": "Atividades práticas de laboratório de ciências com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 7
+  },
+  {
+    "id": 38,
+    "titulo": "Inclusão digital — turma 4",
+    "descricao": "Atividades práticas de inclusão digital com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 8
+  },
+  {
+    "id": 39,
+    "titulo": "Arte e sociedade — turma 4",
+    "descricao": "Atividades práticas de arte e sociedade com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 9
+  },
+  {
+    "id": 40,
+    "titulo": "Pesquisa comunitária — turma 4",
+    "descricao": "Atividades práticas de pesquisa comunitária com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 10
+  },
+  {
+    "id": 41,
+    "titulo": "Leitura e escrita — turma 5",
+    "descricao": "Atividades práticas de leitura e escrita com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 11
+  },
+  {
+    "id": 42,
+    "titulo": "Tecnologia educacional — turma 5",
+    "descricao": "Atividades práticas de tecnologia educacional com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 12
+  },
+  {
+    "id": 43,
+    "titulo": "Educação ambiental — turma 5",
+    "descricao": "Atividades práticas de educação ambiental com acompanhamento docente.",
+    "cargaHoraria": 40,
+    "professorId": 13
+  },
+  {
+    "id": 44,
+    "titulo": "Matemática aplicada — turma 5",
+    "descricao": "Atividades práticas de matemática aplicada com acompanhamento docente.",
+    "cargaHoraria": 50,
+    "professorId": 14
+  },
+  {
+    "id": 45,
+    "titulo": "História local — turma 5",
+    "descricao": "Atividades práticas de história local com acompanhamento docente.",
+    "cargaHoraria": 60,
+    "professorId": 15
+  },
+  {
+    "id": 46,
+    "titulo": "Projetos culturais — turma 5",
+    "descricao": "Atividades práticas de projetos culturais com acompanhamento docente.",
+    "cargaHoraria": 70,
+    "professorId": 16
+  },
+  {
+    "id": 47,
+    "titulo": "Laboratório de ciências — turma 5",
+    "descricao": "Atividades práticas de laboratório de ciências com acompanhamento docente.",
+    "cargaHoraria": 80,
+    "professorId": 17
+  },
+  {
+    "id": 48,
+    "titulo": "Inclusão digital — turma 5",
+    "descricao": "Atividades práticas de inclusão digital com acompanhamento docente.",
+    "cargaHoraria": 90,
+    "professorId": 18
+  },
+  {
+    "id": 49,
+    "titulo": "Arte e sociedade — turma 5",
+    "descricao": "Atividades práticas de arte e sociedade com acompanhamento docente.",
+    "cargaHoraria": 20,
+    "professorId": 19
+  },
+  {
+    "id": 50,
+    "titulo": "Pesquisa comunitária — turma 5",
+    "descricao": "Atividades práticas de pesquisa comunitária com acompanhamento docente.",
+    "cargaHoraria": 30,
+    "professorId": 20
+  }
+]

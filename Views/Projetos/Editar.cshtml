@@ -1,0 +1,4 @@
+@model ProjetoFormViewModel
+@{ ViewData["Title"] = "Editar projeto"; }
+<h1>Editar projeto</h1>
+<form asp-action="Editar" asp-route-id="@Model.Id" method="post" class="formulario"><input type="hidden" asp-for="Id"/><partial name="_Formulario" model="Model" /></form>

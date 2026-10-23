@@ -1,0 +1,13 @@
+@model Projeto
+@{ ViewData["Title"] = "Detalhes do projeto"; }
+<h1>Detalhes do projeto</h1>
+<div class="formulario">
+    <p><strong>Título:</strong> @Model.Titulo</p>
+    <p><strong>Descrição:</strong> @Model.Descricao</p>
+    <p><strong>Carga horária:</strong> @Model.CargaHoraria h</p>
+    <p><strong>Professor:</strong> @(Model.Professor?.Nome ?? "Professor não encontrado")</p>
+    <div class="acoes">
+        <a asp-action="Editar" asp-route-id="@Model.Id">Editar</a>
+        <a asp-action="Index">Voltar</a>
+    </div>
+</div>
